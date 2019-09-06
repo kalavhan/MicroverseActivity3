@@ -12,3 +12,32 @@
 	position: inherit;
 	padding-top: 15%;
 }
+
+#navbar{
+	position: fixed;
+	top: 0;
+  	right: 0;
+  	width: 100%;
+  	background-color: gray;
+
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav-list a {
+  display: table;
+  font-size: 2.2rem;
+  padding: 1rem;
+  padding-left: 4rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  font-size: 2.4rem;
+}
