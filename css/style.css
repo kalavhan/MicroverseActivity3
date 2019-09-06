@@ -1,16 +1,35 @@
-.welcomesection{
-	position: static;
-	height: 100vh;
-	background-color: #3399FF;
-	color: white;
-	align-items: center;
-	align-content: center;
-	text-align: center;
+@media only screen /*cellphone*/
+and (min-width: 778px){
+	.welcomesection{
+		position: static;
+		height: 100vh;
+		background-color: #3399FF;
+		color: white;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+	}
 }
+
 
 .welcomecontainer{
 	position: inherit;
 	padding-top: 15%;
+}
+
+@media only screen /*cellphone*/
+and (min-width: 320px)
+and (max-width: 777px){
+	.welcomesection{
+		position: static;
+		height: 100vh;
+		background-color: #3399FF;
+		color: white;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		font-size: 3rem !important;
+	}
 }
 
 #navbar{
@@ -40,4 +59,30 @@
 
 .nav-list a:hover {
   font-size: 2.4rem;
+}
+
+#projects{
+	height: 40rem;
+}
+.project-title{
+	width: 80%;
+	height: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #9999FF;
+}
+
+.layer1 {
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.layer2 {
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.layer3 {
+	-webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
