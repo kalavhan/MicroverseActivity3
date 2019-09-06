@@ -1,0 +1,14 @@
+.welcomesection{
+	position: static;
+	height: 100vh;
+	background-color: #3399FF;
+	color: white;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+.welcomecontainer{
+	position: inherit;
+	padding-top: 15%;
+}
